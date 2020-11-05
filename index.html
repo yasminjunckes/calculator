@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/png" href="calculator.png">
+    </head>
+    <body>
+        <div class="geral">
+            <h1>CALCULATOR</h1>
+            <label id="resultado">result</label>
+            <div>
+                <table>
+                    <tr> 
+                        <td><button id="1" onclick="calcular(1)">1</button></td>  
+                        <td><button id="2" onclick="calcular(2)">2</button></td> 
+                        <td><button id="3" onclick="calcular(3)">3</button></td>  
+                        <td><button id="mult" onclick="operacoes(' * ')">*</button></td> 
+                    </tr>
+                    <tr> 
+                        <td><button id="4" onclick="calcular(4)">4</button></td>  
+                        <td><button id="5" onclick="calcular(5)">5</button></td> 
+                        <td><button id="6" onclick="calcular(6)">6</button></td>  
+                        <td><button id="divi" onclick="operacoes(' / ')">÷</button></td>  
+                    </tr>
+                    <tr> 
+                        <td><button id="7" onclick="calcular(7)">7</button></td>  
+                        <td><button id="8" onclick="calcular(8)">8</button></td> 
+                        <td><button id="9" onclick="calcular(9)">9</button></td>  
+                        <td><button id="mais" onclick="operacoes(' + ')">+</button></td> 
+                    </tr>
+                    <tr> 
+                        <td><button id="ponto" onclick="ponto()">.</button></td>  
+                        <td><button id="0" onclick="calcular(0)">0</button></td> 
+                        <td><button id="igual" onclick="igual()">=</button></td>  
+                        <td><button id="menos" onclick="operacoes(' - ')">-</button></td> 
+                    </tr>
+                </table>
+                <img src="reload.png" onclick="window.location.reload()">
+            </div>
+            <footer>Created by Yasmin J.</footer>
+            
+            <script src="javaScript.js"></script>
+        </div>
+    </body>
+</html>

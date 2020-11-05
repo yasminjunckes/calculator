@@ -1,0 +1,81 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: fantasy, Blippo, fantasy;
+    color: #4d4d4d;
+    margin: 0;
+    align-items: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-content: center;
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    color: lightgreen;
+    font-weight: normal;
+    font-size: 5vw;
+    margin-bottom: 0.5em;
+}
+
+label{
+    font-size: 2em;
+    background-color: transparent;
+    color: violet;
+}
+
+div{
+
+    text-align: center;
+    align-items: center;
+}
+
+table{
+    padding-top: 7vh;
+    margin: auto;
+}
+
+button{
+    margin:0px;
+    padding:0px;
+    border-radius: 5px;
+    font-size: 2em;
+    width: 6vw;
+    height: 11vh;
+}
+
+button:hover {
+    background-color: rgb(190, 215, 224);
+}
+
+img{
+    background-color: chartreuse;
+    margin: 15px;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+    width: 6vw;
+    height: 6vh;
+}
+
+.geral {
+    min-height:100%;
+    position:relative;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    font-style: italic;
+    font-family: Apple Chancery;
+    color: azure;
+}
